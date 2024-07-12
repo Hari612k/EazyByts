@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales - CRM System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Sales Management</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Sales Pipeline</h2>
+    <div id="salesPipeline">
+      <!-- Sales pipeline tracking will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <section id="addSaleForm" style="display: none;">
+    <h2>Add New Sale</h2>
+    <form id="saleForm">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName" required><br><br>
+
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" required><br><br>
+
+      <button type="submit">Save</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <!-- Footer content -->
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
